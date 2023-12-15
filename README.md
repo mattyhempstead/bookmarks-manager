@@ -23,7 +23,7 @@ If we imagine the URLs as key-value pairs, we could actually represent the bookm
 If we create a bookmarks folder, say `.metadata`, we could use this folder to store any data related to our bookmarks extension.
 This data would be synced automatically across google accounts, and would not get in the way when you are using the fallback which is the default bookmarks bar since you can just hide that folder.
 
-Given this, we could now build a new view to the bookmarks bar that contains whatever we want (better UI, notes/tags attached to bookmarks, search, new objects entirely) that requires no backend.
+Given this, we could now build a new view to the bookmarks bar that contains whatever we want (better UI, notes/tags/dates attached to bookmarks, search, new objects entirely) that requires no backend.
 
 A good start would just be a simple "tagging" system to the existing bookmarks bar that lets you easily search bookmarks.
 The tagging data would be stored in our `.metadata` folder and would then work seamlessly with the existing bookmarks syncing mechanism.
